@@ -106,7 +106,7 @@ require(['Vue', 'vuex', 'vue2-filters', 'vue_router', 'routes', 'vuex-router-syn
         methods: {
             loadData: async function() {
                 try{
-                    await this.$store.dispatch('initializeApi', { site: "heritage-village", version: "v4" });
+                    await this.$store.dispatch('initializeApi', { site: "heritagevillage", version: "v4" });
                     await this.$store.dispatch("getData","property");
                     let results = await Promise.all([
                         this.$store.dispatch("INITIALIZE_LOCALE"), 
