@@ -407,9 +407,10 @@ strong {
             width: 30px;
             height: 30px;
             position: relative;
-            background: $primary; 
+            border: 1px solid $FFF;
             border-radius: 50%;
-            transition: color 0.3s ease;
+            background: $primary; 
+            transition: all 0.3s ease;
         }
         .fab {
             position: absolute;
@@ -424,6 +425,7 @@ strong {
     }
     .social_icon:hover {
         div {
+            border: 1px solid $primary;
             background: $secondary_text;    
         }
         .fab {
