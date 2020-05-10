@@ -9,11 +9,6 @@
                 <div class="col-xs-12 col-sm-6 col-md-4 footer_newsletter">
                     <p class="footer_heading">NEWSLETTER SUBSCRIPTION</p>
                     <p>Stay up to date on the latest news from {{ property.name }}!</p>
-                    <!--<form id="subForm" class="js-cm-form" action="https://www.createsend.com/t/subscribeerror?description=" method="post" data-id="92D4C54F0FEC16E5ADC2B1904DE9ED1AA92E2D706DAB1DCA008759076E9ECC1A3B5BF4CDB6B1BE0BCC9EFF257E4764FCDAFA7D722BD0B81421702392BE73566C">	-->
-                    <!--    <label class="accessibility" for="fieldEmail">Email</label>-->
-                    <!--    <input id="fieldEmail" name="cm-ydiuhjk-ydiuhjk" type="email" class="js-cm-email-input" placeholder="Your Email" required />-->
-                    <!--    <button id="newsletter_submit" class="js-cm-submit-button" type="submit">Subscribe To Our Newsletter</button>-->
-                    <!--</form>-->
                     
                     <form id="subForm" class="js-cm-form" action="https://www.createsend.com/t/subscribeerror?description=" method="post" data-id="92D4C54F0FEC16E5ADC2B1904DE9ED1AA92E2D706DAB1DCA008759076E9ECC1A3B5BF4CDB6B1BE0BCC9EFF257E4764FCDAFA7D722BD0B81421702392BE73566C">	
                         <label class="accessibility" for="fieldEmail">Email </label>
